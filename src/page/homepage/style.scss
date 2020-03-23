@@ -35,6 +35,12 @@
     bottom: 50px;
     overflow: auto;
 
+    .des {
+        height: 30px;
+        line-height: 30px;
+        font-size: 24px;
+    }
+
     .svg-container {
         border: 1px dotted #666;
     }

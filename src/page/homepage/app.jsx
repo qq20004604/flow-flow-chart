@@ -128,8 +128,8 @@ class Root extends React.Component {
             <h2 id="title">
                 流程图演示（由于素材是自己PS截图下来的，所以比较简陋，见谅）
             </h2>
-
             <div id="box">
+                <div className='des'>说明和github连接，参照：<a href='https://github.com/qq20004604/flow-flow-chart' target='_blank'>https://github.com/qq20004604/flow-flow-chart</a></div>
                 <SVGContainer/>
             </div>
 
