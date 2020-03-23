@@ -11,46 +11,6 @@ import {MapState, store} from 'common/store/index.js';
 
 const list = [
     {
-        id: 0,
-        top: 20,
-        left: 20,
-        width: 155,
-        height: 155,
-        url: require('@/img/冷凝器.png')
-    },
-    {
-        id: 1,
-        top: 280,
-        left: 40,
-        width: 140,
-        height: 220,
-        url: require('@/img/空气处理机.png')
-    },
-    {
-        id: 2,
-        top: 290,
-        left: 200,
-        width: 140,
-        height: 220,
-        url: require('@/img/空气处理机.png')
-    },
-    {
-        id: 3,
-        top: 230,
-        left: 680,
-        width: 70,
-        height: 100,
-        url: require('@/img/分水器.png')
-    },
-    {
-        id: 4,
-        top: 50,
-        left: 280,
-        width: 300,
-        height: 150,
-        url: require('@/img/中央空调主机.png')
-    },
-    {
         id: 5,
         top: 80,
         left: 130,
@@ -59,44 +19,12 @@ const list = [
         url: require('@/img/冷却回水.png')
     },
     {
-        id: 6,
-        top: 315,
-        left: 400,
-        width: 180,
-        height: 60,
-        url: require('@/img/风机盘管.png')
-    },
-    {
-        id: 7,
-        top: 380,
-        left: 400,
-        width: 180,
-        height: 60,
-        url: require('@/img/风机盘管.png')
-    },
-    {
-        id: 8,
-        top: 445,
-        left: 400,
-        width: 180,
-        height: 60,
-        url: require('@/img/风机盘管.png')
-    },
-    {
         id: 9,
         top: 245,
         left: 565,
         width: 130,
         height: 260,
         url: require('@/img/风机管.png')
-    },
-    {
-        id: 10,
-        top: 185,
-        left: 570,
-        width: 80,
-        height: 80,
-        url: require('@/img/集水器.png')
     },
     {
         id: 11,
@@ -113,6 +41,78 @@ const list = [
         width: 550,
         height: 280,
         url: require('@/img/下方管道.png')
+    },
+    {
+        id: 100,
+        top: 20,
+        left: 20,
+        width: 155,
+        height: 155,
+        url: require('@/img/冷凝器.png')
+    },
+    {
+        id: 101,
+        top: 280,
+        left: 40,
+        width: 140,
+        height: 220,
+        url: require('@/img/空气处理机.png')
+    },
+    {
+        id: 102,
+        top: 290,
+        left: 200,
+        width: 140,
+        height: 220,
+        url: require('@/img/空气处理机.png')
+    },
+    {
+        id: 103,
+        top: 230,
+        left: 680,
+        width: 70,
+        height: 100,
+        url: require('@/img/分水器.png')
+    },
+    {
+        id: 104,
+        top: 50,
+        left: 280,
+        width: 300,
+        height: 150,
+        url: require('@/img/中央空调主机.png')
+    },
+    {
+        id: 110,
+        top: 185,
+        left: 570,
+        width: 80,
+        height: 80,
+        url: require('@/img/集水器.png')
+    },
+    {
+        id: 106,
+        top: 315,
+        left: 400,
+        width: 180,
+        height: 60,
+        url: require('@/img/风机盘管.png')
+    },
+    {
+        id: 107,
+        top: 380,
+        left: 400,
+        width: 180,
+        height: 60,
+        url: require('@/img/风机盘管.png')
+    },
+    {
+        id: 108,
+        top: 445,
+        left: 400,
+        width: 180,
+        height: 60,
+        url: require('@/img/风机盘管.png')
     },
 ]
 store.dispatch({
